@@ -13,7 +13,7 @@ import org.osgi.service.http.whiteboard.propertytypes.HttpWhiteboardContext;
  */
 @Component(service = ServletContextHelper.class)
 @HttpWhiteboardContext(name = "com.adobe.skyline.readiness", 
-path = "/adobe2/system/readiness")
+path = "/adobe/system/readiness")
 public class ReadinessContext extends ServletContextHelper {
 
     /**
