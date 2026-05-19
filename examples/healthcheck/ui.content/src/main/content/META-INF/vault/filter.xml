@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/healthcheck" mode="merge"/>
+    <filter root="/content/healthcheck" mode="merge"/>
+    <filter root="/content/dam/healthcheck" mode="merge">
+        <exclude pattern="/content/dam/healthcheck(/.*)?"/>
+        <include pattern="/content/dam/healthcheck/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/healthcheck/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/healthcheck" mode="merge"/>
+</workspaceFilter>

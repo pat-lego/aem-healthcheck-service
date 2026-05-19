@@ -6,7 +6,7 @@
 
   <groupId>com.adobe.skyline</groupId>
   <artifactId>aem-readiness</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0.0-SNAPSHOT</version>
 
   <name>AEMaaCS Readiness</name>
   <description>Skyline Readiness Bundle</description>
